@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>help</class>
+ <widget class="QMainWindow" name="help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>661</width>
+    <height>357</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>help</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>641</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.SF NS Text'; font-size:10pt;&quot;&gt;Использование прокси&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.SF NS Text'; font-size:10pt;&quot;&gt;Если в вашей стране недоступен сайт Вконтакте, тогда, чтобы использовать программу вам необходимо использовать прокси. Не используйте их просто так, т. к. они замедляют процесс работы. Найдите в поисковых системах сайт со списком прокси адресов. Важно: выбранный прокси должен работать по протоколу HTTPS. Скопируйте ip адрес(например: 170.79.16.19) и порт(обычно 8080) в соответствующие поля. Если все в порядке то справа статус прокси изменится на &amp;quot;Подключено&amp;quot;.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.SF NS Text'; font-size:10pt;&quot;&gt;Как получить токен группы?&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.SF NS Text'; font-size:10pt;&quot;&gt;Заходим на сайт своей группы &amp;gt; Управление сообществом &amp;gt; Настройки &amp;gt; Работа с API &amp;gt; Создать ключ &amp;gt; Ставим галочку &amp;quot;Разрешить приложению доступ к управлению сообществом&amp;quot; &amp;gt; Создать. Далее вам придет подтверждение о создании ключа, вы вводите код и сайт выдает Вам ключ доступа. Это и есть токен группы.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.SF NS Text'; font-size:10pt;&quot;&gt;Как получить токен администратора?&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.SF NS Text'; font-size:10pt;&quot;&gt;Для этого вам нужно обязательно быть авторизованным в качестве админа/модератора в группе. Переходим по &lt;/span&gt;&lt;a href=&quot;https://oauth.vk.com/authorize?client_id=6475224&amp;amp;display=page&amp;amp;redirect_uri=https://oauth.vk.com/blank.html&amp;amp;scope=friends,groups,offline&amp;amp;response_type=token&amp;amp;v=7.54&quot;&gt;&lt;span style=&quot; font-family:'.SF NS Text'; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;специальной ссылке.&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-family:'.SF NS Text'; font-size:10pt;&quot;&gt; Разрешаем приложению доступ к общей информации и группам. После этого в адресной строке браузера изменится текст, откуда нужно будет скопировать токен. Это последовательность символов, начинающаяся после &amp;quot;access_token=&amp;quot; и заканчивающаяся перед текстом &amp;quot;&amp;amp;expires_in&amp;quot;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'.SF NS Text'; font-size:10pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.SF NS Text'; font-size:10pt;&quot;&gt;Причина бана:&lt;/span&gt;&lt;/p&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#758eac;&quot; style=&quot; margin-top:5px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:13px; font-style:italic; color:#000000;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot; font-size:13px; color:#000000;&quot;&gt; — другое (по умолчанию);&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#758eac;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:13px; font-style:italic; color:#000000;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:13px; color:#000000;&quot;&gt; — спам;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#758eac;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:13px; font-style:italic; color:#000000;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-size:13px; color:#000000;&quot;&gt; — оскорбление участников;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#758eac;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:13px; font-style:italic; color:#000000;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-size:13px; color:#000000;&quot;&gt; — нецензурные выражения;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#758eac;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:13px; font-style:italic; color:#000000;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-size:13px; color:#000000;&quot;&gt; — сообщения не по теме.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Как пользоваться программой?&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Для начала заполните все поля в &amp;quot;Настройках группы&amp;quot;. В ID группы укажите идентификатор той группы, в черный список которой будут добавляться пользователи. Выбираем тип объекта, откуда будем получать ID пользователей, которых потом сможем заблокировать. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Нажмите &amp;quot;Выбрать пользователей&amp;quot;, появится окно с дополнительными настройками. Заполните все необходимые поля и нажмите &amp;quot;Продолжить&amp;quot;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Загрузка&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Теперь вы можете загрузить список выбранных пользователей, просто кликните &amp;quot;Загрузить&amp;quot;. Если после этого загрузка не началась, то, вероятно вы неверно указали какую-либо информацию. Проверьте, что если вы выбирали объект &amp;quot;Голосование&amp;quot; или &amp;quot;Другое&amp;quot; и владельцем является группа, вы указали знак &amp;quot;-&amp;quot; перед ID владельца объекта.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Если произошла ошибка&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Если вы неправильно ввели какую-то информацию и в работе программы произошла ошибка, рекомендуется открыть программу заново, т.к. эта ошибка может привести к ошибкам в последующей работе программы.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Анализ пользователей&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;После того как программа закончит загрузку, вы можете сравнить список  полученных пользователей и уже заблокированных в вашей группе, нажав на кнопку &amp;quot;Сравнить&amp;quot;. При этом, если был загружен большой список пользователей, окно может ненадолго зависнуть, дождитесь открытия нового окна.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Блокировка&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Теперь, загрузив список пользователей, вы можете начать процесс блокировки их в вашей группе. Выберите параметры блокировки в &amp;quot;Настройках блокировки&amp;quot;. Также можно оставить комментарий, но это крайне не рекомендуется, т.к. увеличит количество запросов на сервера ВК и может привести к нестабильной работе программы. Далее нажмите на кнопку &amp;quot;Заблокировать&amp;quot; и если вы выполнили все шаги правильно, начнется процесс блокировки. Если что-то пошло не так проверьте правильность введеной информации, а также удостоверьтесь что пользователь, чей токен вы вводили в поле &amp;quot;Токен администратора&amp;quot; обладает правами администратора/модератора в данной группе.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Почему блокируются не все пользователи?&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Очень часто число загруженных пользователей и число забаненных будет не совпадать. Это происходит потому, что странницы этих пользователей либо удалены, либо заблокированны администрацией ВК.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Планы работ&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:10pt; color:#000000;&quot;&gt;Сначала нужно создать новую сборку. Введите название и нажмите &amp;quot;Создать&amp;quot;. После этого выберите созданную сборку, нажав на нее в специальном поле выше и Вам будут доступны действия с данной сборкой: удалить, подробнее (там Вы можете посмотреть, какие действия записаны в данной сборке), добавить текущее задание (т.е. то что записано в главном окне программы), активировать.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'-apple-system,system-ui,Roboto,Helvetica Neue,sans-serif'; font-size:13pt; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="openExternalLinks">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mail">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>281</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;По всем вопросам: &lt;a href=&quot;mailto:misstepdev@gmail.com?subject=BanManager&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;misstepdev@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="openExternalLinks">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="telegram">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>330</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Telegram: @MReese</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
